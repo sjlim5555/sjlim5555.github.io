@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="logo.png" alt="Jin Logo" class="logo">
+      <h1>Seong-Jin's Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href='https://www.google.com/' target="_blank">Visit Google</a></li>
+
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='education.html'>Education</a></li>
+        <li><a href='projects.html'>Projects</a></li>
+        <li><a href='resume.html'>Resume</a></li>
+        <li><a href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="imgcontainer">
+      <div id="homehero">
+        <div class="centered">
+          <h1>Seong-Jin Lim</h1>
+
+        </div>
+      </div>
+    </div>
+    <main>
+      <section id="home">
+        <h1>About Me:</h1>
+        <p>My name is <strong>Seong-Jin Lim</strong>. I am an undergraduate student at <span
+            style="background-color: gold;">Arizona
+            State University.</span> This is my 4th and final year of my undergraduate studies and I am a double major pursuing a bachelor's in Supply Chain Management and Computer Information Systems. I love learning, challenges, and spending time with my loved ones. Besides schooling and my career, I LOVE all types of music. I used to play the saxophone for 5 years, but in my spare time now I try and practice my guitar as much as possible. </p>
+        <p>I have extensive experience within the aerospace industry and manufacturing settings. Having had the opportunity to work in varying factory floors, I have a strong grasp on what it takes to have successful production runs for differing contracts/projects. Throughout my years of schooling and internship experience, I have developed a deep appreciation of the complexities and nuances of supply chain management. Whether it is planning, operations, procurement, or logistics, I am ready to tackle any challenge. Thank you for visiting my page, and feel free to reach out to me for any of your needs.</p>
+        <div class="row">
+          <div class="twocontainer">
+            <iframe width="426" height="240" src="https://www.youtube.com/embed/CPISexQPvQw?si=tdKiMf0uf5fJzFCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="twocontainer">
+            <video controls poster="cat.jpg"
+          width="300" height="240">
+            <source src="kkitty.mp4" type="video/mp4"
+              width="300" height="240">
+            </video>
+          </div>  
+        </div>  
+        <a href="./resume.pdf" download="resume.pdf">
+          <button>Download Resume</button>
+        </a>
+      </section>
+     <section id="form">
+        <h1>Fill out my music form! : </h1>
+        <h3 align="center">All the * fields are required</h3>
+        <form method="POST">
+          <!-- First name  -->
+          <label for="fname">*First Name:</label>
+          <input type="text" name="fname" id="fname" required>
+          <label for='lanme'>*Last name:</label>
+          <input type="text" name="lname" id="lname" required>
+          <label for='user'>You are:</label>
+          <div class="form-container">
+            <input type="radio" id='Older' name="user" value="Older">
+            <label for="new">Younger Individual</label>
+            <input type="radio" id='Younger' name="user" value="Younger">
+            <label for="existing">Older Individual</label>
+          </div>
+          <label for="campus">Select a genre: </label>
+          <select name="campus">
+            <option value="c">Country</option>
+            <option value="r">Rock</option>
+            <option value="m">Metal</option>
+            <option value="a">Alternative</option>
+            <option value="h">House</option>
+          </select>
+          <label for="music">Check the music genres you listened to today: </label>
+          <div class="form-container">
+            <input type="checkbox" name="music1" value="Country">Country
+            <input type="checkbox" name="music2" value="Rock">Rock
+            <input type="checkbox" name="music3" value="Metal">Metal
+            <input type="checkbox" name="music4" value="Alternative">Alternative
+            <input type="checkbox" name="music5" value="House">House
+            <input type="checkbox" name="music5" value="Other">Other
+          </div>
+
+          <label for="message">If "Other" please write the genre(s) below! : </label>
+          <textarea rows="5" cols="20" name="message">Comments</textarea>
+          <div class="button-container">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Cancel">
+          </div>
+
+        </form>
+      </section>
+    </main>
+    <footer align='center'>
+      <p><i><small>Copyright &copy; Seong-Jin Lim<br>
+            <a href="mailto:splim1@asu.edu" style="color: white;">splim1@asu.edu</a>
+<br>
+          </small></i></p>
+      <div class="socialMediaLinks">
+      <small><i><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+<a href="https://facebook.com" class="fa fa-facebook-f" target="_blank"></a>
+<a href="https://github.io" class="fa fa-brand fa-github" target="_blank"></a>
+<a href="https://instagram.com/sunnyjjl" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.linkedin.com/in/seong-jin-lim-850162196/" class="fa fa-linkedin" target="_blank">
+</a></i></small>
+      </div>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

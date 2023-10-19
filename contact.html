@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="logo.png" alt="Jin Logo" class="logo">
+      <h1>Seong-Jin's Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href='https://www.google.com/' target="_blank">Visit Google</a></li>
+
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='education.html'>Education</a></li>
+        <li><a href='projects.html'>Projects</a></li>
+        <li><a href='resume.html'>Resume</a></li>
+        <li><a href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="imgcontainer">
+      <div id="contacthero">
+        <div class="centered">
+          <h1>Contact Me</h1>
+        </div>
+      </div>
+    </div>
+
+   <main>
+  <!-- Content for the Contact page -->
+  <section id="Contact">
+    <h1>Contact Seong-Jin</h1>
+    <h3>All the * fields are required</h3>
+    <form method="POST">
+      <label for="fname">*First Name:</label>
+      <input type="text" name="fname" id="fname" required>
+      <label for="lname">*Last Name:</label>
+      <input type="text" name="lname" id="lname" required>
+
+      <!-- Radio Buttons Alignment -->
+      <div class="radio-container">
+        <label for="new_user">New User</label>
+        <input type="radio" id="new_user" name="user_type" value="new_user">
+      </div>
+      <div class="radio-container">
+        <label for="existing_user">Existing User</label>
+        <input type="radio" id="existing_user" name="user_type" value="existing_user">
+      </div>
+
+      <!-- Message Box Alignment -->
+      <div class="message-container">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="message-container">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
+    <footer align='center'>
+      <p><i><small>Copyright &copy; Seong-Jin Lim<br>
+            <a href="mailto:splim1@asu.edu" style="color: white;">splim1@asu.edu</a>
+<br>
+          </small></i></p>
+      <div class="socialMediaLinks">
+      <small><i><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+<a href="https://facebook.com" class="fa fa-facebook-f" target="_blank"></a>
+<a href="https://github.io" class="fa fa-brand fa-github" target="_blank"></a>
+<a href="https://instagram.com/sunnyjjl" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.linkedin.com/in/seong-jin-lim-850162196/" class="fa fa-linkedin" target="_blank">
+</a></i></small>
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
